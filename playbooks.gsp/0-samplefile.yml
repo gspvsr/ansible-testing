@@ -13,4 +13,4 @@
       shell: apt-get update
 
     - name: install tools
-      shell: apt-get install -y unzip jq stress net-tools explain pls
+      shell: apt-get install -y unzip jq stress net-tools explain
