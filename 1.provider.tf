@@ -11,9 +11,9 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "gsp21101983-01"
+    bucket         = "gsp21101983-02"
     key            = "Ansible.tfstate"
-    region         = "us-east-1"
+    region         = "us-east-2"
     # dynamodb_table = "-terraform-locks"
     encrypt        = true
   }
