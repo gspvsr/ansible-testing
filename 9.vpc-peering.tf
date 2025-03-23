@@ -3,7 +3,7 @@ data "aws_vpc" "ansible_vpc" {
 }
 
 data "aws_route_table" "ansible_vpc_rt" {
-  subnet_id = "subnet-08428014485a50369"
+  subnet_id = "subnet-0150cb12f5b6c2744"
   # If subnet_id giving errors use route table id as below
   # route_table_id = data.aws_route_table.ansible_vpc_rt.id
 }
