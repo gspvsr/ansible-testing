@@ -1,7 +1,7 @@
 aws_region           = "us-east-2"
 vpc_cidr             = "10.37.0.0/16"
 vpc_name             = "Ansible-Vpc"
-key_name             = "devops.pub"
+key_name             = "devops"
 public_subnet_cidrs  = ["10.37.1.0/24", "10.37.2.0/24", "10.37.3.0/24"]    #List
 private_subnet_cidrs = ["10.37.10.0/24", "10.37.20.0/24", "10.37.30.0/24"] #List
 azs                  = ["us-east-2a", "us-east-2b", "us-east-2c"]          #List
