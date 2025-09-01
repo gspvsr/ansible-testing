@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 terraform {
-  required_version = "<= 1.8.5, <= 1.11.1" #Forcing which version of Terraform needs to be used
+  required_version = ">= 1.0.0, <= 1.12.1" #Forcing which version of Terraform needs to be used
   required_providers {
     aws = {
       version = "<= 6.0.0" #Forcing which version of plugin needs to be used.
@@ -13,7 +13,7 @@ terraform {
   backend "s3" {
     bucket         = "gsp21101983-02"
     key            = "Ansible.tfstate"
-    region         = "us-east-2"
+    region         = "us-east-1"
     # dynamodb_table = "-terraform-locks"
     encrypt        = true
   }
